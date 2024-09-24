@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/website', function () {
-    return view('website.index');
+Route::get('/landingpage', function () {
+    return view('landingpage.index');
 });
  
